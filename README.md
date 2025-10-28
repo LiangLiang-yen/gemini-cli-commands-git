@@ -4,9 +4,9 @@ This is a Gemini CLI extension that provides useful Git commands to streamline y
 
 ## Installation
 
-1. Make sure you have the Gemini CLI installed.
-2. Clone this repository.
-3. Place the `git-commands` directory in your Gemini CLI extensions folder.
+```shell
+gemini extensions install https://github.com/LiangLiang-yen/gemini-cli-commands-git
+```
 
 ## Available Commands
 
@@ -14,7 +14,7 @@ This is a Gemini CLI extension that provides useful Git commands to streamline y
 
 The `commit` command helps you create a conventional commit message for your staged changes.
 
-```
+```shell
 /git:commit
 ```
 
