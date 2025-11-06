@@ -1,10 +1,9 @@
-description="Generates a commit message from staged changes and commits it."
+description="Generates a commit message from staged changes."
 prompt = """
-Your task is to generate a commit message based on the content of the staged changes and then commit it.
+Your task is to generate a commit message based on the content of the staged changes.
 
 Follow these steps:
 1. Use `git diff --staged` to reviewing staged changes to generate a commit message.
 2. Use `git log -n 5` to reviewing commit history to match the style for the new commit message.
-3. Use `git commit` to committing the staged changes using the generated commit message.
-4. Use `git status` to checking the status of the repository after the commit.
+3. Show generated commit message based on the changes and history.
 """
