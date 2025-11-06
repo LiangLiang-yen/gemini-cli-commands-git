@@ -4,6 +4,6 @@ Your task is to generate a commit message based on the content of the staged cha
 
 Follow these steps:
 1. Use `git diff --staged` to reviewing staged changes to generate a commit message.
-2. Use `git log -n 5` to reviewing commit history to match the style for the new commit message.
+2. Use `git log -n 5 --pretty=oneline` to reviewing commit history to match the style for the new commit message.
 3. Show generated commit message based on the changes and history.
 """
